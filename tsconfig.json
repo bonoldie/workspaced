@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "lib": [
+            "ES2021",
+        ],
+        "module": "CommonJS",
+        "moduleResolution": "nodenext",
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+    }, 
+    "ts-node": {
+        "preferTsExts": true,
+        "transpileOnly": true,
+        "esm": true,
+    },
+    "include": [
+        "scripts"
+    ],
+}

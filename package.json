@@ -1,0 +1,40 @@
+{
+  "name": "workspaced",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "ts-node ./scripts/start.ts",
+    "build": "ts-node ./scripts/build.ts",
+    "package": "ts-node ./scripts/package.ts",
+    "publish": "ts-node ./scripts/publish.ts"
+  },
+  "keywords": [
+    "monorepo",
+    "typescript",
+    "electron",
+    "node",
+    "react",
+    "esbuild"
+  ],
+  "author": {
+    "email": "erribono01@gmail.com",
+    "name": "Enrico Bonoldi",
+    "url": "https://github.com/bonoldie"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@craftamap/esbuild-plugin-html": "^0.5.0",
+    "@types/lodash": "^4.14.191",
+    "@types/node": "^18.13.0",
+    "@web/dev-server": "^0.1.35",
+    "esbuild": "^0.17.8",
+    "esbuild-sass-plugin": "^2.5.0",
+    "lodash": "^4.17.21",
+    "sass": "^1.58.2",
+    "ts-node": "^10.9.1"
+  },
+  "workspaces": [
+    "packages/main",
+    "packages/app"
+  ]
+}

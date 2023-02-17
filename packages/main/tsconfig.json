@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "lib": [
+            "ESNext",
+        ],
+        "esModuleInterop": true,
+    },
+    "include": [
+        "src",
+        "globals.ts"
+    ]
+}
